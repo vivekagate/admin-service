@@ -5,7 +5,7 @@ const handleRequest = function (request, response) {
 
 	  response.writeHead(200);
 
-	  response.end('Hello World -> Reservation Service');
+	  response.end('Hello World -> Admin Service');
 };
 
 const www = http.createServer(handleRequest);
